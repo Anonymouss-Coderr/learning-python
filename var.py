@@ -14,7 +14,7 @@ print(f"my name is  {name}")
 
 student_present = False
 
-print(f"Is the student present? {student_present}")
+print(f"Is the student present? {student_present}") #here f is used to format the string and include the value of the boolean variable 'student_present' in the output.
 
 if student_present:
     print("The student is present.")
