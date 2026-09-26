@@ -9,16 +9,24 @@ if a == "y":
     z=x+y
     print(z)
 
-#to round of the float num we can use round() function. The round() function takes two arguments:
-#the number to be rounded and the number of decimal places to round to.
+   #to round of the float num we can use round() function. The round() function takes two arguments:
+   #the number to be rounded and the number of decimal places to round to.
 
     z=round(x+y)
     print(z)   # this will round off the float number to the nearest integer.
 
-# if we want to add comma as a separator for thousands, we can use this syntax
-# print(f"{z:,}")  # this will add comma as a separator for thousands.
+    # if we want to add comma as a separator for thousands, we can use this syntax
+    # print(f"{z:,}")  # this will add comma as a separator for thousands.
 
     print(f"{z:,}")
+
+    #by doing z=round(x/y,2) we can round off the float number to 2 decimal places.
+    z=round(x/y,2)
+    print(z)
+
+    #or we can just use the format() function to round off the float number to 2 decimal places.
+    z=format(x/y,".2f") #here .2f means 2 decimal places and f means float type.
+    print(z)
 
 
 
@@ -42,4 +50,4 @@ elif a == "n":
 else:
     print (" ")
 
-    
+
