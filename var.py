@@ -1,10 +1,13 @@
-# WE CAN USE f strings to format strings in Python. The f before the string allows us to include 
-# variables directly within the string using curly braces {}. In this case, the variable 'name' is included in the output string.
 
 
-name = "Alice"
-print(f"my name is  {name}") 
+#float type
+#used for decimal numbers
 
+x=float(input("Enter the 1st number: ")) 
+y=float(input("Enter the 2nd number"))
+
+z=x+y
+print(z)
 
 
 #Boolean variables can be used to represent the presence or absence of a student. 
