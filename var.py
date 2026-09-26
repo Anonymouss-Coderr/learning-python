@@ -27,6 +27,9 @@ if a == "y":
     #or we can just use the format() function to round off the float number to 2 decimal places.
     z=format(x/y,".2f") #here .2f means 2 decimal places and f means float type.
     print(z)
+    
+    #we can also type it as print(f"{z:.2f}")  
+    print(z)
 
 
 
