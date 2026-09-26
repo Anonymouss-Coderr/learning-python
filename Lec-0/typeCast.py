@@ -11,6 +11,3 @@ print(b)
 
 b = str(b)  # Type casting int to string
 print(b)
-
-z=input()
-print(z)
